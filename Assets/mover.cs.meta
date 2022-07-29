@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7657724aa62c7794a95f4397502749e9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trashbin: {fileID: 4602025962161850522, guid: 3773d0ae256dc594ea12defa93a67c26, type: 3}
+  - persons: {instanceID: 0}
+  - camera1: {instanceID: 0}
+  - camera2: {instanceID: 0}
+  - myText: {instanceID: 0}
+  - rb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

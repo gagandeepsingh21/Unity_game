@@ -1,0 +1,543 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655276891481916, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655276891483260, "dur": 384004, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655276891867491, "dur": 18395251, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655276910262764, "dur": 9878, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277016047416, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277016047700, "dur": 53153, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277016100857, "dur": 2865565, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277018966498, "dur": 13919912, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277032886412, "dur": 17797411, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277050683827, "dur": 7322, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277050692441, "dur": 57, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655277024832597, "dur": 7882915, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277024833688, "dur": 2555916, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277032330415, "dur": 29803, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277032360228, "dur": 355254, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277032362543, "dur": 206671, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277032835444, "dur": 3747, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655277032780411, "dur": 58814, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277050856489, "dur": 14166, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655277034481432, "dur":340232, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277034821708, "dur":202, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655277034821950, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655277034822021, "dur":1291, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655277034823394, "dur":1179, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277034824573, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147320, "dur":513, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147833, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147867, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147873, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147889, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147892, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147906, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147908, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147930, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147933, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147944, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147947, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147959, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147961, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147978, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147980, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050147992, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050148100, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050148109, "dur":249525, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655277034823824, "dur":851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277034824675, "dur":6813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277034831488, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655277034831618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277036556591, "dur":270482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655277036827137, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655277036827371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277036827386, "dur":253042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655277037080509, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655277037080756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277037101898, "dur":212311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655277037314244, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655277037314360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277037314368, "dur":1092578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655277038407014, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277038407113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277038407127, "dur":1596466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040003713, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040003860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277040003878, "dur":632281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040636191, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040636226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277040636234, "dur":300303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040936579, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277040936617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277040936624, "dur":3690290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277044626950, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277044626987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277044626996, "dur":134281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277044761310, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277044761346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277044761351, "dur":500489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277045261903, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277045261943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277045261952, "dur":863959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046126008, "dur":544084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046670103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277046670119, "dur":125103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046795293, "dur":140031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046935346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277046935367, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046938026, "dur":18499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046956531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277046956541, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046958872, "dur":8513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046967395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277046967411, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046969359, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277046969439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277046969444, "dur":135408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047104891, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047104925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047104930, "dur":74911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047179886, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047179933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047179945, "dur":182738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047362728, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047362794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047362810, "dur":99942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047462788, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047462822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047462833, "dur":144955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655277047607863, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655277047607940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047607948, "dur":214412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655277047822396, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1655277047822433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655277047822439, "dur":1589959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1655277049412512, "dur":734773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277034824013, "dur":765, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277034824778, "dur":6628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277034831408, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655277034831706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277036357320, "dur":371570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1655277036728983, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655277036729142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277036745008, "dur":580517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655277037325556, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277037325679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277037515258, "dur":1630868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277039146215, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277039146331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277039146349, "dur":905050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277040051518, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277040051639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277040051656, "dur":585042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277040636754, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277040636818, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277040636823, "dur":1079266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277041716227, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277041716298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277041716309, "dur":3044459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277044760807, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277044760947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277044760961, "dur":214077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277044975129, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277044975230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277044975239, "dur":621427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277045596732, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277045596790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277045596802, "dur":1197210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046794100, "dur":111940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046906052, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277046906068, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046908869, "dur":61073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046969945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277046969950, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046970991, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277046971016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277046971025, "dur":133742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277047104810, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277047104850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277047104855, "dur":358521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655277047463413, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1655277047463470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277047604606, "dur":31038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1655277047635760, "dur":62914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1655277047698681, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277047698700, "dur":179992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1655277047878743, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655277047878785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655277047878793, "dur":1533945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655277049412823, "dur":734481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277034823993, "dur":691, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277034824732, "dur":6697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277034831430, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1655277034831618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277035945325, "dur":1349372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1655277037294727, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655277037294819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277037294826, "dur":457583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1655277037752464, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277037752540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277037752845, "dur":574571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277038327453, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277038327481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277038327524, "dur":1456465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277039784081, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277039784149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277039784163, "dur":587227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277040371427, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277040371452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277040371458, "dur":172797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277040544352, "dur":186676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277040731033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277040731057, "dur":594417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277041325533, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277041325591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277041325602, "dur":3301344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044626993, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044627057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277044627063, "dur":133915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044761024, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044761065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277044761071, "dur":212869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044974019, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277044974101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277044974114, "dur":510403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277045484626, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277045484787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277045484810, "dur":1082760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046567732, "dur":339465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046907207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277046907224, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046909961, "dur":29555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046939522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277046939532, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046941708, "dur":24685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046966398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277046966406, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046969082, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277046969178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277046969185, "dur":640574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655277047609796, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655277047609835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277047609843, "dur":191084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655277047800987, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655277047801081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277047801097, "dur":333339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1655277048134476, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1655277048134519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655277048134525, "dur":1278044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1655277049412664, "dur":734639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277034824051, "dur":733, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277034824784, "dur":6619, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277034831408, "dur":381029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655277035212447, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277036357752, "dur":482724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1655277036840503, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655277036840595, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277036840601, "dur":497666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1655277037338301, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655277037338392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277037338397, "dur":1157624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1655277038496086, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277038496181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277038496193, "dur":1484919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277039981212, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277039981322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277039981337, "dur":654816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277040636189, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277040636233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277040636238, "dur":115038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277040751316, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277040751373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277040751381, "dur":3441438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277044192911, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277044192971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277044192981, "dur":567838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277044760850, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277044761073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277044761079, "dur":500784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277045261905, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277045261943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277045261952, "dur":863932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277046125974, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277046126053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277046126070, "dur":667830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277046793971, "dur":260779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047054782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277047054791, "dur":95608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047150482, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047150637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277047150650, "dur":217216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047367934, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047368114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277047368123, "dur":499452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655277047867602, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1655277047867631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277047867636, "dur":500038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1655277048367763, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1655277048367978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655277048367987, "dur":1778994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1655277050147153, "dur":87, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277034824310, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277034824792, "dur":6659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277034831452, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655277034831621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277035945301, "dur":1018164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655277036963507, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1655277036963654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277037101694, "dur":224785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1655277037326511, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277037326580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277037326583, "dur":2934260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040260905, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040260952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277040260962, "dur":107700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040368719, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040368756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277040368764, "dur":267385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040636189, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040636229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277040636236, "dur":300354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040936628, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277040936669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277040936675, "dur":3689813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044626543, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044626584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277044626619, "dur":134580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044761234, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044761271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277044761276, "dur":213490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044974824, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277044974910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277044974920, "dur":690263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277045665221, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277045665253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277045665260, "dur":1128647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046793972, "dur":152975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046946954, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277046946965, "dur":7353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046954365, "dur":3328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046957700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277046957711, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046959106, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277046959181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277046959186, "dur":145521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277047104754, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277047104796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277047104806, "dur":106405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277047211247, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277047211285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277047211291, "dur":251835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655277047463163, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1655277047463284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277047604713, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1655277047607183, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1655277047607279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277047607291, "dur":193860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1655277047801251, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1655277047801340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655277047801357, "dur":1000080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1655277048801496, "dur":1345820, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277034824483, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277034824802, "dur":6648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277034831451, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655277034831627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277035945142, "dur":1019681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655277036964891, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655277036965006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277037056454, "dur":306449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655277037362941, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1655277037363029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277037605508, "dur":1223718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1655277038829252, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277038829284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277038829289, "dur":1223191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040052547, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040052614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277040052625, "dur":338293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040390948, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040390978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277040390986, "dur":245505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040636631, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040636679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277040636686, "dur":299539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040936278, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277040936322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277040936331, "dur":780060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277041716491, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277041716578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277041716596, "dur":3044371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277044761014, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277044761058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277044761065, "dur":212943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277044974127, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277044974235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277044974293, "dur":621708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277045596118, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277045596255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277045596275, "dur":971503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046567881, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046567991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277046568012, "dur":367537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046935608, "dur":54411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046990024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277046990034, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046991104, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277046991129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277046991134, "dur":18115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047009280, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047009308, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277047009323, "dur":9650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047019016, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047019044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277047019050, "dur":85683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047104768, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047104806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277047104813, "dur":473185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655277047578040, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655277047578078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277047578089, "dur":56867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655277047635078, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1655277047635413, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277047635429, "dur":487507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1655277048122999, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1655277048123039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655277048123047, "dur":2023835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1655277050147128, "dur":155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277034824665, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277034824666, "dur":6728, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277034831408, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1655277034831410, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277034831598, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1655277034831605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277034832355, "dur":462589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1655277035294948, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1655277035295103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277036357676, "dur":698917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1655277037056643, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1655277037056762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277037101783, "dur":212605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1655277037314421, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277037314487, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277037515244, "dur":1054966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277038570237, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277038570272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277038570277, "dur":1480723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040051105, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040051276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277040051298, "dur":317821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040369164, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040369207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277040369215, "dur":185959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040555231, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040555296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277040555303, "dur":80881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040636222, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040636334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277040636344, "dur":299903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040936304, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277040936385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277040936392, "dur":3256324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044192820, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044192893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277044192905, "dur":517139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044710111, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044710175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277044710188, "dur":264676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044974971, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277044975023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277044975032, "dur":621180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277045596322, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277045596430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277045596448, "dur":1196753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046793274, "dur":160602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046953886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277046953902, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046955516, "dur":18562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046974083, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277046974097, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046975618, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277046975640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277046975648, "dur":58114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047033809, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047033862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277047033879, "dur":116465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047150432, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047150532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277047150573, "dur":312277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047462885, "dur":154962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047617852, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277047617870, "dur":17832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655277047635795, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655277047635908, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277047635922, "dur":498448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655277048134433, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1655277048134495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655277048134503, "dur":2012503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1655277050147197, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1655277050147201, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277034825023, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277034825023, "dur":6406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277034831429, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1655277034831624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277036301475, "dur":663433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1655277036964936, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1655277036965034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277037056454, "dur":294739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1655277037351228, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655277037351265, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277037351273, "dur":1019215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan.exe" }}
+,{ "pid":12345, "tid":8, "ts":1655277038370553, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277038370649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277038370661, "dur":1681173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040051919, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040052010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277040052025, "dur":316716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040368783, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040368820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277040368825, "dur":188467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040557319, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040557350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277040557379, "dur":193544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040750971, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277040751008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277040751019, "dur":964845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277041715985, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277041716129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277041716149, "dur":3044808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277044760993, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277044761057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277044761064, "dur":212888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277044974012, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277044974075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277044974090, "dur":510546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277045484880, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277045485125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277045485145, "dur":640913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046126137, "dur":610700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046736847, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277046736863, "dur":58613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046795565, "dur":182992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046978561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277046978568, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046980235, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277046980261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277046980267, "dur":124488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277047104794, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277047104896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277047104901, "dur":509911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655277047614844, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655277047614889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277047614896, "dur":241112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655277047856055, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/gagan/Desktop/game/Education_gagan_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655277047856094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655277047856100, "dur":945395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/gagan/Desktop/game/Education_gagan_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655277048801542, "dur":1345779, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655277050642861, "dur":3923, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655277050870783, "dur": 1422, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655277050692406, "dur": 179878, "ph": "X", "name": "Write chrome-trace events", "args": {} },
